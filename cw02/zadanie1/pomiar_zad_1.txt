@@ -1,0 +1,4 @@
+New file result.txt has been created with stdlib method - 30979 chars have been replaced
+Execution time (std library methods): 0.009237s
+New file sys_result.txt has been created with system functions- 30979 chars have been replaced
+Execution time (system functions): 0.018725s

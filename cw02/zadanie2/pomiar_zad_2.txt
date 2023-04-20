@@ -1,0 +1,3 @@
+New file reversed.txt has been created
+Execution time of char by char function is: 8.996948s
+Execution time of block by block function is: 0.045192s

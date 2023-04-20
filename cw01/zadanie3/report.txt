@@ -1,0 +1,116 @@
+Raport do Laboratorium 1
+
+Laboratorium zostało wykonane w 75%. Jedynym brakującym punktem jest punkt B z zadania 3.
+Wszystkie pozostałe polecenia zostały wykonane.
+
+Poniżej znajdują się wyniki pomiarów czasu kompilacji programu uruchamianego w trzech wariantach,
+otrzymane z plików results_static.txt , results_shared.txt oraz results_dynamic.txt
+
+1. Wywołanie z użyciem biblioteki statycznej
+
+    Inicjalizacja tablicy:
+    Real Time: 0.000019s User Time: 0.000000s System Time: 0.000000s
+
+    Zliczanie kolejnych plików:
+    Real Time: 0.016717s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.016781s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.015498s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.014561s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.014463s User Time: 0.000000s System Time: 0.000000s
+
+    Zwracanie zawartości bloków pamięci:
+    Real Time: 0.000003s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+
+    Zwalnianie pamięci z poszczególnych bloków:
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+
+    Usunięcie tablicy z pamięci:
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+
+2. Wywołanie z użyciem biblioteki współdzielonej 
+
+    Inicjalizacja tablicy:
+    Real Time: 0.000019s User Time: 0.000000s System Time: 0.000000s
+
+    Zliczanie kolejnych plików:
+    Real Time: 0.014685s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.015923s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.013309s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.015520s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.015155s User Time: 0.000000s System Time: 0.000000s
+
+    Zwracanie zawartości bloków pamięci:
+    Real Time: 0.000003s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    
+
+    Zwalnianie pamięci z poszczególnych bloków:
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    
+
+    Usunięcie tablicy z pamięci:
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    
+
+3. Wywołanie z użyiem biblioteki dynamicznej
+
+    Inicjalizacja tablicy:
+    Real Time: 0.000020s User Time: 0.000000s System Time: 0.000000s
+
+    Zliczanie kolejnych plików:
+    Real Time: 0.014271s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.015205s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.015081s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.013688s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.013497s User Time: 0.000000s System Time: 0.000000s
+    
+    Zwracanie zawartości bloków pamięci:
+    Real Time: 0.000004s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    
+
+    Zwalnianie pamięci z poszczególnych bloków:
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    
+    Usunięcie tablicy z pamięci:
+    Real Time: 0.000002s User Time: 0.000000s System Time: 0.000000s
+    
+    
+
+Testy były przeprowadzane za pomocą pliku pomocniczego test.txt, w którym zaimplementowane zostały odpowiednie komendy
+wywołujące funkcje programu zgodnie z poleceniem zadania 3. Każdy kolejny czas podany powyżej opisuje wykonanie się odpowiednich 
+funkcji podanych poniżej:
+
+    - inicjalizacja tablicy 
+    - zliczenie plików źródłowych
+    - zwrócenie zawartości na kolejnych blokach
+    - zwolnienie pamięci bloków
+    - zwolnienie pamięci tablicy wskaźników
+
+Analizując dane możemy stwierdzić, że zarówno czas użytkownika jak i czas systemowy był nieznaczny. Dopiero porównując czasy
+rzeczywiste możemy zauważyć, że w zależności od użytej biblioteki czasy różniły się od siebie. Najszybsze wywołania to te, które
+używają biblioteki dynamicznej, drugą co do szybkości jest biblioteka współdzielona, a najwolniejsze wywołania zostały otrzymane przy
+pomocy biblioteki statycznej.
+

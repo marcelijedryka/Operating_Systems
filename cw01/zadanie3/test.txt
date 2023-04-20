@@ -1,0 +1,19 @@
+INIT 5
+COUNT filler.txt 
+COUNT main.c 
+COUNT Makefile 
+COUNT mylib.c 
+COUNT mylib.h 
+SHOW 0
+SHOW 1
+SHOW 2
+SHOW 3
+SHOW 4
+DELETE 0
+DELETE 1
+DELETE 2
+DELETE 3
+DELETE 4
+DESTROY 
+EXIT
+

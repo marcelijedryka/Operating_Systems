@@ -1,0 +1,13 @@
+Analizując pracę programu można stwierdzić, że w przypadku funkcji fork:
+
+    - Sygnał jest ignorowany zarówno dla rodzica jak i procesu potomnego
+    - Handler wywołuje się zarówno dla rodzica jak i procesu potomnego
+    - Maska działa zarówno dla rodzica jak i procesu potomnego
+    - Sygnał o statusie pending widoczny jest tylko dla rodzica
+
+Z kolei dla funkcji execl:
+
+    - Sygnał jest ignorowany zarówno dla rodzica jak i procesu potomnego
+    - zgodnie z poleceniem brak wywołania dla funkcji Handler
+    - Maska działa zarówno dla rodzica jak i procesu potomnego
+    - Sygnał o statusie pending widoczny jest zarówno dla rodzica jak i procesu potomnego
