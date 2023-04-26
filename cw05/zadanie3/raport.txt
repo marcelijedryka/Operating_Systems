@@ -1,0 +1,11 @@
+Testing performance for DX = 0.000000001 and N = 1
+
+The final value is 3.141593 Time - 4.690568s
+
+Testing performance for DX = 0.000000001 and N = 2
+
+The final value is 3.141592 Time - 4.130293s
+
+Testing performance for DX = 0.000000001 and N = 5
+
+The final value is 3.141592 Time - 5.267628s
